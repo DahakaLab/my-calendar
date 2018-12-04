@@ -1,6 +1,6 @@
 <template lang="pug">
   FooterSection.footer-section
-    footer.footer-section__section
+    footer.footer-section__container
       .footer-section__background
 
 </template>

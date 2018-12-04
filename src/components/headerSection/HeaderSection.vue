@@ -1,7 +1,13 @@
 <template lang="pug">
-  HeaderSection
-    header
-      h1 header
+  HeaderSection.header-section
+    header.header-section__container
+      picture.header-section__banner-img
+        source(media='(min-width: 1024px)', srcset='../../assets/header/header-background.jpg', type='image/jpg')
+        source(media='(min-width: 768px)', srcset='../../assets/header/header-background.jpg', type='image/jpg')
+        source(media='(min-width: 320px)', srcset='../../assets/header/header-background.jpg', type='image/jpg')
+        img(src='../../assets/header/header-background.jpg', alt='alt')
+      .header-section__content
+        h1 header
 
 </template>
 
