@@ -1,7 +1,7 @@
 <template lang="pug">
-  FooterSection
-    footer
-      h3 footer
+  FooterSection.footer-section
+    footer.footer-section__section
+      .footer-section__background
 
 </template>
 

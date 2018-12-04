@@ -1,26 +1,26 @@
 <template lang="pug">
   div(id='app')
     HeaderSection
-    main
-      h2 {{msg}}
+    MainSection
     FooterSection
 
 </template>
 
 <script>
-  import HeaderSection from './components/headerSection/HeaderSection.vue'
-  import FooterSection from './components/footerSection/FooterSection.vue'
+  import HeaderSection from './components/headerSection/HeaderSection.vue';
+  import MainSection from './components/mainSection/MainSection.vue';
+  import FooterSection from './components/footerSection/FooterSection.vue';
 
   export default {
     name: 'app',
     data () {
-      return {
-        msg: 'Main'
-      }
+      return {}
     },
     components: {
       HeaderSection,
+      MainSection,
       FooterSection,
     },
+
   }
 </script>
