@@ -1,15 +1,14 @@
 <template lang="pug">
   div(id='app')
-    HeaderSection
-    MainSection
-    FooterSection
-
+    HeaderComponent
+    MainComponent
+    FooterComponent
 </template>
 
 <script>
-  import HeaderSection from './components/headerSection/HeaderSection.vue';
-  import MainSection from './components/mainSection/MainSection.vue';
-  import FooterSection from './components/footerSection/FooterSection.vue';
+  import HeaderComponent from './components/headerComponent/headerComponent.vue';
+  import MainComponent from './components/mainComponent/mainComponent.vue';
+  import FooterComponent from './components/footerSection/footerComponent.vue';
 
   export default {
     name: 'app',
@@ -17,10 +16,9 @@
       return {}
     },
     components: {
-      HeaderSection,
-      MainSection,
-      FooterSection,
+      HeaderComponent,
+      MainComponent,
+      FooterComponent,
     },
-
   }
 </script>
