@@ -1,4 +1,11 @@
+// Base
 @import "base/main.scss";
-@import "components/headerComponent/headerComponent.scss";
+@import "base/style.scss";
+
+// Core
+@import "components/core/button/coreButton.scss";
+
+// Components
+@import "components/header/header.scss";
 @import "components/mainComponent/mainComponent";
 @import "components/footerSection/footerComponent";

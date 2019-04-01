@@ -1,12 +1,12 @@
 <template lang="pug">
   div(id='app')
-    HeaderComponent
+    Header
     MainComponent
     FooterComponent
 </template>
 
 <script>
-  import HeaderComponent from './components/headerComponent/headerComponent.vue';
+  import Header from './components/header/header.vue';
   import MainComponent from './components/mainComponent/mainComponent.vue';
   import FooterComponent from './components/footerSection/footerComponent.vue';
 
@@ -16,7 +16,7 @@
       return {}
     },
     components: {
-      HeaderComponent,
+      Header,
       MainComponent,
       FooterComponent,
     },
