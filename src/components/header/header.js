@@ -15,7 +15,7 @@ export default {
       btnRefresh: {
         btnType: 'button',
         main: false,
-        text: 'Обновить'
+        text: 'Тест'
       }
     }
   },
